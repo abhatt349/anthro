@@ -1,0 +1,17 @@
+social facts -
+	-monkey experiment (shocking and bananas)
+	-
+
+
+
+
+scanner s = new Scanner(System.in);
+int x = s.nextInt();
+int tot = 0;
+while (x != 0) {
+	if (x != 2 * (x / 2)) {
+		tot += x % 10;
+	}
+	x /= 10;
+	return tot;
+}d
